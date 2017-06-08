@@ -2,12 +2,12 @@ import * as React from 'react';
 import { inject, observer } from 'mobx-react';
 import { Header } from '../../components/Header';
 import { TodoList } from '../../components/TodoList';
-import { Footer } from '../../components/Footer';
+// import { Footer } from '../../components/Footer';
 import { TodoModel } from '../../models/TodoModel';
 import { TodoStore, RouterStore } from '../../stores';
 import { STORE_TODO, STORE_ROUTER } from '../../constants/stores';
 import { TodoFilter, TODO_FILTER_LOCATION_HASH } from '../../constants/todos';
-import * as style from './style.css';
+// import * as style from './style.css';
 
 export interface TodoAppProps {
   /** MobX Stores will be injected via @inject() **/
@@ -64,6 +64,8 @@ export class TodoApp extends React.Component<TodoAppProps, TodoAppState> {
   }
 
   render() {
+    console.log(this.props)
+    
     const todoStore = this.props[STORE_TODO] as TodoStore;
     const { children } = this.props;
     const { filter } = this.state;

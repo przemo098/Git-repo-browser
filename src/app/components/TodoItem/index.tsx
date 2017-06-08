@@ -2,7 +2,7 @@ import * as React from 'react';
 import * as classNames from 'classnames';
 import { TodoTextInput } from '../TodoTextInput';
 import { TodoModel } from '../../models/TodoModel';
-import * as style from './style.css';
+// import * as style from './style.css';
 
 export interface TodoActions {
   editTodo: (id: number, data: Partial<TodoModel>) => any;
