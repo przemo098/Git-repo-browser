@@ -1,4 +1,4 @@
-import TodoModel from './TodoModel';
-import GitHubModel from './GitHubModel';
+// import TodoModel from './TodoModel';
+// import GitHubModel from './GitHubModel';
 
-export { TodoModel, GitHubModel };
+export { default as GitHubModel } from './GitHubModel';

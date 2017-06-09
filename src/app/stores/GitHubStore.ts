@@ -17,13 +17,8 @@ export class GitHubStore {
   public repositories: Array<GitHubModel>;
 
   @computed
-  get activeTodos() {
+  get allRepositories() {
     return this.repositories.filter((todo) => !todo.owner);
-  }
-
-  @computed
-  get completedTodos() {
-    return this.repositories.filter((todo) => todo.owner);
   }
 
   @action

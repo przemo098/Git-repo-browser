@@ -3,11 +3,16 @@ import * as ReactDOM from 'react-dom';
 import { useStrict } from 'mobx';
 import { Provider } from 'mobx-react';
 import { Router, Route, IndexRoute, browserHistory } from 'react-router';
-import { App } from './containers/App';
+import { App } from './containers/App/index';
 // import { TodoApp } from './containers/TodoApp';
-import { GitHubApp } from './containers/GitRepoApp'
-import { GitHubModel } from './models';
-import { RouterStore, GitHubStore } from './stores';
+import  GitHubApp  from './containers/GitRepoApp'
+import { GitHubModel } from './models/index';
+import { RouterStore, GitHubStore } from './stores/index';
+
+
+
+
+
 import { STORE_ROUTER, GITHUB_STORE } from './constants/stores';
 // import { TodoFilter } from './constants/todos';
 
@@ -45,7 +50,7 @@ login: string;
 }
 
 const defaultGitHub = [
-  new GitHubModel(12, "lol", new OwnerClass(), 32, new Date())
+  new GitHubModel(12, "lol", "example", 32, new Date())
 ]
 
 // prepare MobX stores
