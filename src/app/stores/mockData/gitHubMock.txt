@@ -1,0 +1,406 @@
+{1100}{1171}The directers.
+{1175}{1254}Bernardo Bertolucci
+{1300}{1366}Mike Figgis
+{1400}{1466}Jirí Menzel
+{1525}{1593}István Szabó
+{1625}{1693}Claire Denis
+{1750}{1827}Volker Schlondorff
+{1850}{1923}Michael Radford
+{1975}{2049}Jean-Luc Goddard
+{2175}{2270}That seems like the mountains.
+{2275}{2361}Cross millions of years.
+{2375}{2443}Up and down.
+{2475}{2563}Just like a water ripple.
+{3075}{3145}Ten Years Old
+{3200}{3263}The Cello
+{4225}{4319}Director: Bernardo Bertolucci
+{4425}{4498}Histoire d'eaux
+{4600}{4681}Come down, come down.
+{4775}{4846}Get damn down.
+{5750}{5821}Wait! Where are you going?
+{5825}{5913}Hey! Where are you going?
+{6475}{6546}Brue, this is my name.
+{6550}{6625}You will know me.
+{8000}{8083}I cannot believe this.
+{8175}{8256}The damn rubbish car.
+{8475}{8547}I can help you.
+{10400}{10468}Put it down.
+{10825}{10899}Want some drink?
+{11025}{11105}Really nice... good.
+{11125}{11221}Really nice... good! I can't understand your words.
+{11225}{11321}You'd better speak Italian, Italian.
+{11325}{11387}Italian?
+{11575}{11621}John Wayne.
+{11625}{11717}What? Name, I am John Wayne.
+{11725}{11789}What, me?
+{11850}{11912}Nothing.
+{12050}{12115}Follow me.
+{15350}{15371}Honey.
+{15375}{15458}Honey, my water broke.
+{15475}{15550}Did you see that?
+{16275}{16337}Come on!
+{18525}{18582}Here!
+{21325}{21371}Brue!
+{21375}{21446}I know you will come, and we have a long way to go.
+{21450}{21562}There should be some trouble on the road.
+{23775}{23856}Director: Mike Figgis
+{51575}{51641}Ten minutes
+{51650}{51736}Our lifes are not longer
+{55750}{55816}Ten minutes
+{57200}{57286}Director 4: Istvan Szabo
+{57425}{57500}Ten Minutes After
+{57550}{57659}My grandma is buying fish in the market
+{57700}{57783}Buy fish in the market
+{57825}{57934}My grandma is buying fish in the market
+{57950}{57996}My grandma is buying fish in the market
+{58000}{58046}Fish....
+{58050}{58121}Your grandma is buying fish in the market
+{58125}{58196}His grandma is buying fish in the market
+{58200}{58246}Her grandma is buying fish in the market
+{58250}{58321}Our grandma is buying fish in the market
+{58325}{58396}Your grandma is buying fish in the market
+{58400}{58513}Their grandma is buying fish in the market
+{58800}{58858}Cake!
+{59425}{59496}I wish my sister was here...
+{59500}{59546}I wish
+{59550}{59638}I wish my sister was here
+{59700}{59746}You wish your sister was here
+{59750}{59840}He wish his sister was here
+{60150}{60211}Coming!
+{60225}{60291}I'm coming!
+{60350}{60448}You are back. We bring him back!
+{60475}{60521}Thank you! No problem, we are leaving.
+{60525}{60615}No problem, come in. Thanks
+{60675}{60736}Darling
+{60775}{60848}Have you drunk?
+{60925}{60993}I want wine!
+{61025}{61071}Wine?
+{61075}{61121}Why you still want wine?
+{61125}{61196}Give me the wine
+{61200}{61296}Come on, darling, today is our commemoration day.
+{61300}{61377}Commemoration day?
+{61500}{61592}Wait! What's wrong with you?
+{61600}{61697}Wait! Where's the wine? Come on
+{61900}{61971}What's wrong with you?
+{61975}{62071}Don't be like this, where's the wine?
+{62075}{62146}Stop drinking, darling, today is a special day to us, isn't it?
+{62150}{62221}Where's the wine?
+{62225}{62321}Something happen to you, right?
+{62325}{62396}Tell me.|Cake.
+{62525}{62583}What?
+{62650}{62696}What?|Get away!
+{62700}{62786}But.....|Don't touch me!
+{63850}{63928}What happen to you?
+{64000}{64058}What?
+{64125}{64188}Forget it
+{64250}{64296}Go sleep!
+{64300}{64371}How about you going to sleep?
+{64375}{64443}Take a rest.
+{64475}{64521}Sleep....
+{64525}{64622}Then you'll feel better, right?
+{64725}{64846}Sit down. Let me help you take off the shoes,|then just lie down in the bed...
+{64850}{64909}Sleep.
+{64925}{65002}Have a sweet dream
+{65025}{65096}I wanna drink.|Lie down, don't move.
+{65100}{65165}No, no no!
+{65200}{65246}Lie down, don't go.|Let go of me
+{65250}{65296}Gábor, have a good sleep.
+{65300}{65428}Let go of me, let go!|Or I'll kill you, you hear me?
+{65525}{65571}What's wrong with you, tonight is our...
+{65575}{65646}Let go! Get out...
+{65650}{65746}What's wrong with you?|Get out, don't you hear me?
+{65750}{65843}Get out, understand?|Get out!
+{65975}{66036}Let go!
+{66675}{66721}What's wrong?
+{66725}{66818}Gábor, what's wrong with you?
+{67075}{67204}Hello! Please come here! There's an accident here....
+{67225}{67271}The address is George Uptown
+{67275}{67370}Left side cells, 16th mansions
+{67375}{67455}4th room, 3th floor.
+{67475}{67521}Gábor Máté
+{67525}{67583}What?
+{67600}{67646}Mrs. Máté
+{67650}{67715}My husband
+{67725}{67807}Anything, anybody....
+{68000}{68110}I don't talk about anything with anybody
+{68125}{68190}Calm down.
+{68300}{68417}You don't talk about anything with anybody...
+{68550}{68624}Are they coming?
+{68725}{68784}Gábor!
+{68875}{68921}Gábor, no... come on, over here!
+{68925}{68996}Where's the wounded people? Over here.
+{69000}{69088}Over here, come on, here.
+{69125}{69193}He won't die
+{69275}{69343}He won't die
+{69400}{69462}Come on!
+{69500}{69562}Come on!
+{69575}{69655}He won't die, right?
+{70275}{70346}Bring his coat
+{70625}{70693}He won't die
+{70750}{70818}He won't die
+{71675}{71791}Is it here? Yes.|A lady stabbed her husband.
+{71800}{71846}Is it her? Yes
+{71850}{71935}Lady! Please come here!
+{71950}{72050}Is that you stabbed your husband?
+{72075}{72171}Please come with us, we need to make some notes.
+{72175}{72271}No! I've to look after my husband!
+{72275}{72348}No, no! Let go!
+{72525}{72571}The crime scene is here, right? Yes.
+{72575}{72634}Go in.
+{72700}{72754}No.
+{72775}{72836}In. NO!
+{72900}{72946}What's wrong with you? You must cooperate with us.
+{72950}{73021}Hey? Help her in.
+{73025}{73084}Go in.
+{73300}{73371}No one has ever noticed.
+{73375}{73485}Is there someone that noticed he smoked?
+{74900}{74983}Director: Claire Denis
+{75100}{75121}Facing Nancy.
+{75125}{75171}There were many times in the past.
+{75175}{75258}I wanted to come here.
+{75275}{75346}Came to France, because...
+{75350}{75487}...it has a good impression on my heart, and I don't know.
+{75525}{75608}It's just like a love.
+{75625}{75696}Yes, I can understand.
+{75700}{75746}But to this...
+{75750}{75796}...it is not easy...
+{75800}{75896}...to describe within several words.
+{75900}{75995}Not the things on the surface.
+{76025}{76096}It's hard to explain.
+{76100}{76146}But now you are stepping to the hope.
+{76150}{76246}At this moment what are you thinking?
+{76250}{76296}This is very complex.
+{76300}{76428}Becasue it is pale to use the words to express that.
+{76475}{76568}Because something deposits...
+{76625}{76744}...under the surface and it cannot be through.
+{76775}{76877}But my feeling is totally exciting.
+{76900}{76971}The excitement in the travel.
+{76975}{77067}From one place to the other.
+{77100}{77146}Though these travels make me a little tired,
+{77150}{77259}yet I have the feeling of satisfaction.
+{77300}{77346}It's the normal human feelings.
+{77350}{77421}And including the travel in the time.
+{77425}{77517}From one space to the other.
+{77525}{77621}This deed, it's just the happiness that the life journey brings.
+{77625}{77721}So you can do whatever you like.
+{77725}{77821}This is a kind of extrication of the thought.
+{77825}{77930}It's the satisfaction in the process.
+{77950}{77996}It's beyond the form of the surface.
+{78000}{78107}When you are in a strange environment,
+{78150}{78221}Can you have that kind of feelings?
+{78225}{78307}Can you feel strange?
+{78350}{78446}First, you centainly will have that feeling.
+{78450}{78575}But when the time let you enjoy yourself slowly...
+{78600}{78646}...you will forget something.
+{78650}{78721}You won't separate yourself from that environment.
+{78725}{78846}This is your gain whenm you come to the strange place.
+{78850}{78938}And then, you will feel..
+{78950}{79021}...that's a "stable point".
+{79025}{79121}I know it's hard to describe that.
+{79125}{79171}But the fact is just like this.
+{79175}{79271}When you do something, the feeling of you...
+{79275}{79346}...lies in the process.
+{79350}{79421}It's only you who can realize that.
+{79425}{79521}The other people cannot replace your feeling.
+{79525}{79571}But it truly exists and there's no need to prove that.
+{79575}{79701}You have more words on this aspect than the others.
+{79750}{79843}These words are very serious.
+{79900}{79996}How about the time-space change in the life?
+{80000}{80021}I like this feeling.
+{80025}{80159}France gives me so many feelings, and not merely France.
+{80200}{80271}Because they make me know myself.
+{80275}{80394}Anf I can choose my suitable space after that.
+{80450}{80521}I also agree with that point.
+{80525}{80596}Do you have muck ecperience? Because...
+{80600}{80671}That depends on the age, doesn't that?
+{80675}{80784}Yes, if you try to keep with one thing.
+{80825}{80944}For instance on the aspect of learning French.
+{80950}{81040}I just pratice by speaking.
+{81100}{81233}French is the one that you need the courage to express.
+{81250}{81346}You must have the courage to say it out, whether it is good or bad.
+{81350}{81475}There are many things like that, just keep trying.
+{81500}{81595}To try and you will gain much.
+{81600}{81698}This is where the interest lies.
+{81725}{81796}No matter how long you have kept trying...
+{81800}{81921}...something is not satisfactory, and you must force yourself.
+{81925}{82030}That is different with what you said.
+{82075}{82199}That makes me sad... I don't know how to express.
+{82225}{82338}Is there any effective ways to solve that?
+{82350}{82462}Because I have some experience like that.
+{82525}{82571}Of course.
+{82575}{82671}The key to solve these things is themselves.
+{82675}{82746}What the others say is just the indirect experience.
+{82750}{82887}That is not something uncessary that I mentioned just now.
+{82900}{82973}It's connected.
+{83000}{83096}In fact it is also another way.
+{83100}{83196}Transfer between two different space.
+{83200}{83288}Even change the identity.
+{83300}{83390}To release one's own heart.
+{83400}{83521}When you are in a space, you just escape from the other.
+{83525}{83629}And it gives you time to solve that.
+{83650}{83764}Because to the space you are not connected.
+{83800}{83878}This is my thought.
+{83900}{83986}I think that would help.
+{84025}{84096}So I did this.
+{84100}{84196}One time in a space and change the time.
+{84200}{84310}You come to another space and feel good.
+{84375}{84460}The experience of life.
+{84500}{84571}I maybe understand something.
+{84575}{84646}It showed me some resonance.
+{84650}{84696}Did you have some bad time?
+{84700}{84792}Of course, and for instance.
+{84800}{84896}There are some accidents that make you wordless.
+{84900}{84971}It's a complete abnormal track.
+{84975}{85082}Sometimes you can call that abnormity.
+{85125}{85171}You have to accept that.
+{85175}{85296}Because that cannot happen only once or two times, and you cannot avoid that.
+{85300}{85410}So you must find the key and solve that.
+{85425}{85550}Especially when it was severe you must be patient.
+{85600}{85646}Of course, it is not that easy.
+{85650}{85764}I feel your words are a little theoretical.
+{85775}{85896}But the fact is just like this, and you will feel that actually.
+{85900}{85971}That's the same thing, perhaps.
+{85975}{86085}Maybe they are just my personal summary.
+{86100}{86214}That's my experience, and they truly exist.
+{86225}{86326}Though it is a little theoretical.
+{86425}{86496}I should say it is suitable, because...
+{86500}{86614}...the experience of everyone are the same.
+{86675}{86813}This makes the communication between people lack of limits.
+{86850}{86996}The two completely different worlds always have something in common.
+{87000}{87086}Because it is necessary.
+{87125}{87226}This is necessary in large scales.
+{87250}{87366}Though it is very delicate, yet it's actual.
+{87375}{87482}Yes, you are right. And what's more...
+{87500}{87596}...many things are beyond their imagination, right?
+{87600}{87746}Yes, for instance, acception and rejection, rejection and acception.
+{87750}{87846}Not merely the surface meaning.
+{87850}{87930}Sometimes, perhapse.
+{87975}{88053}It's just opposite.
+{88100}{88146}Or some hint.
+{88150}{88246}And there are genius in this crowd.
+{88250}{88346}There are some things that only genius can complete.
+{88350}{88421}This is correct.
+{88425}{88539}But there are some other aspects of them...
+{88600}{88682}...under the surface.
+{88725}{88846}According to what you said strangeness has some other aspects.
+{88850}{88921}The aspect that is familiar.
+{88925}{89010}Something enthusiastic.
+{89050}{89151}We welcome you and that's the lot.
+{89200}{89246}This is true.
+{89250}{89296}But may not be completely possible.
+{89300}{89409}Because in my opinion I need something.
+{89425}{89500}Something mystic.
+{89525}{89611}This is the normal life.
+{89625}{89671}There are some curiosity there.
+{89675}{89779}So I cannot deny its strange aspect.
+{89800}{89890}Especially in such a place.
+{89900}{89971}My feeling is pretty right, OK?
+{89975}{90046}I think it no problem here.
+{90050}{90121}I also think so, no problem.
+{90125}{90196}And you can enjoy that very much.
+{90200}{90290}Yes, but that's not enough.
+{90325}{90463}I think that's a process full of familiary and strangeness.
+{90475}{90546}All is in the process.
+{90550}{90648}All kinds of flavor in the life.
+{90675}{90771}I always feel happy about that.
+{90775}{90884}What I can do is about the regulations.
+{90975}{91046}No, you won't.
+{91050}{91150}That will make you lose interest.
+{91425}{91471}Are we on the stop?
+{91475}{91621}We will get to the stop soon, the final stop? Ten miniutes later.
+{91625}{91721}Yes? What a good talk you have.
+{91725}{91835}But time can finish this, is that right?
+{93075}{93170}Director 6: Volker Schlöndorff
+{109100}{109190}Director 7: Michael Radford
+{125750}{125839}Director: Jean-Luc Goddard
+{125925}{126004}During the time....
+{126025}{126046}Why light the torch?
+{126050}{126132}The noon of darkness.
+{126175}{126281}Maybe this world lacks of brightness.
+{126300}{126392}It needs the torch to light.
+{126400}{126519}Drive something away and bring something back.
+{126550}{126642}Especially facing the crowd.
+{126650}{126742}I always think it necessary.
+{126900}{126979}The last minutes...
+{127025}{127099}...of the youth.
+{127125}{127196}Among these several guns...
+{127200}{127271}...which one should I choose?
+{127275}{127385}I want to finish someone's life with it.
+{127400}{127471}I really don't know.
+{127475}{127521}Whether he will like this.
+{127525}{127596}I want you to choose.
+{127600}{127701}You like to die slowly or quickly?
+{127725}{127793}Come on now.
+{127875}{127921}Mom.
+{127925}{128010}He just left like that.
+{128025}{128110}Taking with everything.
+{128175}{128196}Oh, Paula, I don't know whether you're fearful.
+{128200}{128268}The courage.
+{128300}{128376}The last minutes.
+{128975}{129043}The thought.
+{129075}{129151}The last minutes.
+{129400}{129471}"With the thought I'm happy"
+{129475}{129595}The happy thought and the happiness of thought.
+{129625}{129681}Why?
+{129775}{129881}Maybe I will betray this "happiness".
+{129950}{130021}When I betray the thought,
+{130025}{130138}I think I cannot possess this "happiness".
+{130150}{130246}Oh, so many books have been treated as the rubbish.
+{130250}{130321}Some of them...
+{130325}{130413}...seem to be pretty new.
+{130425}{130546}Think it clearly that whether to give up all or not.
+{130550}{130670}Once you give up it will never come back again.
+{130725}{130820}Rubbish car is its end-result.
+{130900}{130979}The last minutes...
+{131025}{131094}...of memory.
+{131275}{131357}It will never expire.
+{131500}{131563}The love.
+{131575}{131596}Tell me you won't leave.
+{131600}{131676}The last minutes.
+{131700}{131746}We will have the smile.
+{131750}{131846}OK, the past and all the past, stop now.
+{131850}{131921}This is our finale, bye.
+{131925}{132021}I always have nothing, nothing.
+{132025}{132121}Before you tell me I know I have nothing.
+{132125}{132221}But I hoe that you won't become like that.
+{132225}{132296}We cannot do this and this is our destiny.
+{132300}{132369}The silent...
+{132425}{132511}...and the last minutes.
+{132800}{132871}They are here, aren't they?
+{132875}{132952}What's the number?
+{133150}{133227}What's the number?
+{133350}{133453}They are in your hand, aren't they?
+{133525}{133602}What's the number?
+{133975}{134054}The last minutes...
+{134100}{134171}...of the story.
+{134175}{134246}We are lead upward.
+{134250}{134371}That place is full of brightness and effulgence.
+{134375}{134471}I know agian that I have the new desire.
+{134475}{134546}Something rise from my heart.
+{134550}{134681}Just like the horse that steps on the road first time.
+{134725}{134838}To be against you I will taste the bitter.
+{134850}{134918}The new way.
+{134950}{135015}Oh, death.
+{135025}{135101}She left forever.
+{135250}{135326}She left forever.
+{135350}{135462}She left forever, I know, she left alone.
+{135475}{135584}I know that someone left means he died.
+{135725}{135797}The horrible...
+{135850}{135932}and the last minutes.
+{136325}{136371}Cruety, war.
+{136375}{136496}But it's the vision we often see and the horror just lies in it.
+{136500}{136571}They seem not to shock the people.
+{136575}{136668}But they make me so shocking.
+{136675}{136784}If I can escape and reject, if I can...
+{136825}{136937}I would rather believe this is just fake.
+{136975}{137054}The last minutes...
+{137075}{137152}...of the forever.
+{137825}{137888}Immortal.
+{138050}{138129}The last minutes...
+{138175}{138249}...of the movie.
+{139075}{139147}The last imago.
+{139200}{139272}The last imago.
+{139475}{139521}He said, dark night.
+{139525}{139571}She said, dark night.
+{139575}{139658}They said, dark night.
+{140150}{140212}The End.

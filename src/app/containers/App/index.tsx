@@ -1,4 +1,5 @@
 import * as React from 'react';
+import Header from '../../components/header';
 
 export class App extends React.Component<any, any> {
 
@@ -12,6 +13,9 @@ export class App extends React.Component<any, any> {
   render() {
     return (
       <div className="container">
+        <Header />
+
+
         {this.props.children}
         {this.renderDevTool()}
       </div>

@@ -22,11 +22,17 @@ export default class GitHubApp extends React.Component<any, any>{
 
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
-        this.handleRowCountChange = this.handleRowCountChange.bind(this);        
+        this.handleRowCountChange = this.handleRowCountChange.bind(this);
+        this.redirectToGitHub = this.redirectToGitHub.bind(this);
+        this.saveLocally = this.saveLocally.bind(this);
+
+
+
+
+
     }
 
     render() {
-        console.log(this.state);
         return (
             <div style={{ height: 200 }} className="ag-fresh">
                 <form onSubmit={this.handleSubmit}>
@@ -43,6 +49,7 @@ export default class GitHubApp extends React.Component<any, any>{
                     pagination={true}
                     paginationPageSize={this.state.rowPerPage}
                     enableSorting={true}
+
                 />
 
                 <label>
@@ -54,7 +61,15 @@ export default class GitHubApp extends React.Component<any, any>{
                         <option value="20">20</option>
                     </select>
                 </label>
+
+                <div>
+                    <button onClick={this.redirectToGitHub}>Login with GitHub </button>
+                </div>
             </div>)
+    }
+
+    redirectToGitHub() {
+        window.location.replace("http://github.com/login/oauth/authorize");
     }
 
     handleChange(event) {
@@ -62,25 +77,39 @@ export default class GitHubApp extends React.Component<any, any>{
     }
 
     handleRowCountChange(event) {
-        console.log(event.target.value);
         this.setState({ rowPerPage: event.target.value });
     }
 
     handleSubmit(event) {
         event.preventDefault();
-        console.log(this.state.searchString)
         this.getData()
+        this.saveLocally();
+    }
+
+    saveLocally() {
+        if (typeof (Storage) !== "undefined") {
+            localStorage.setItem(this.state.searchString, JSON.stringify(this.state.repositories));
+        } else {
+            alert("Your browser does not support local local storage, please upgrade browser!!")
+        }
     }
 
     getData() {
-        const gitHubStore = this.props[GITHUB_STORE] as GitHubStore;
-        GitHubApi(this.state.searchString).then((json: ResponseModel.GitHubResponse) => json.items)
-            .then((items: ResponseModel.Item[]) =>
-                items.map((item) => {
-                    let zmienna = new GitHubModel(item.id, item.name, item.owner.login, item.stargazers_count, item.created_at);
-                    gitHubStore.addRepo(zmienna);
-                })).then(
-            () => this.setState({ repositories: this.props.github.repositories.peek() })
-            );
+        try {
+            let localData = localStorage.getItem(this.state.searchString)
+            this.setState({repositories: JSON.parse(localData)});            
+        }
+        catch (excpetion) {
+            //load from web
+            const gitHubStore = this.props[GITHUB_STORE] as GitHubStore;
+            GitHubApi(this.state.searchString).then((json: ResponseModel.GitHubResponse) => json.items)
+                .then((items: ResponseModel.Item[]) =>
+                    items.map((item) => {
+                        let zmienna = new GitHubModel(item.id, item.name, item.owner.login, item.stargazers_count, item.created_at);
+                        gitHubStore.addRepo(zmienna);
+                    })).then(
+                () => this.setState({ repositories: this.props.github.repositories.peek() })
+                );
+        }
     }
 }
