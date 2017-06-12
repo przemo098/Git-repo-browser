@@ -9,7 +9,6 @@ export default class Header extends React.Component<any, any>{
                     <div className="collapse navbar-collapse">                        
                         <ul className="nav navbar-nav">
                             <li className="nav navbar-nav navbar-right">
-                                {/*<button type="button" className="btn btn-default navbar-btn-right">Sign in</button>*/}
                                 <a href="/login">Login with gitHub</a>
                             </li>
                         </ul>

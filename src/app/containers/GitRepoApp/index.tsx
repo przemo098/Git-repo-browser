@@ -25,11 +25,6 @@ export default class GitHubApp extends React.Component<any, any>{
         this.handleRowCountChange = this.handleRowCountChange.bind(this);
         this.redirectToGitHub = this.redirectToGitHub.bind(this);
         this.saveLocally = this.saveLocally.bind(this);
-
-
-
-
-
     }
 
     render() {

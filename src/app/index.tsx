@@ -4,8 +4,8 @@ import { useStrict } from 'mobx';
 import { Provider } from 'mobx-react';
 import { Router, Route, IndexRoute, browserHistory } from 'react-router';
 import { App } from './containers/App/index';
-// import { TodoApp } from './containers/TodoApp';
-import  GitHubApp  from './containers/GitRepoApp'
+import Login from './containers/Login';
+import GitHubApp from './containers/GitRepoApp'
 import { GitHubModel } from './models/index';
 import { RouterStore, GitHubStore } from './stores/index';
 
@@ -27,8 +27,8 @@ useStrict(true);
 //   new TodoModel('Use React', true),
 // ];
 
-class OwnerClass implements Owner {  
-login: string;
+class OwnerClass implements Owner {
+  login: string;
   id: number;
   avatar_url: string;
   gravatar_id: string;
@@ -69,6 +69,7 @@ ReactDOM.render(
       <Route path='/' component={App} >
         <IndexRoute component={GitHubApp} />
       </Route>
+      <Route path='/login' component={Login} />
     </Router>
   </Provider >,
   document.getElementById('root')

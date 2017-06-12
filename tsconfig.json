@@ -9,7 +9,8 @@
     "noLib": false,
     "jsx": "react",
     "outDir": "dist",
-    "sourceMap": true
+    "sourceMap": true,
+    "lib": [ "es6", "dom" ]
   },
   "exclude": [
     "dist",

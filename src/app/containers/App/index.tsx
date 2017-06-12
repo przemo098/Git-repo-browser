@@ -14,8 +14,6 @@ export class App extends React.Component<any, any> {
     return (
       <div className="container">
         <Header />
-
-
         {this.props.children}
         {this.renderDevTool()}
       </div>
