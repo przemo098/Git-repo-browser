@@ -7,13 +7,9 @@ import { App } from './containers/App/index';
 import Login from './containers/Login';
 import GitHubApp from './containers/GitRepoApp'
 import { GitHubModel } from './models/index';
-import { RouterStore, GitHubStore } from './stores/index';
+import { RouterStore, GitHubStore, CredentialsStore } from './stores/index';
 
-
-
-
-
-import { STORE_ROUTER, GITHUB_STORE } from './constants/stores';
+import { STORE_ROUTER, GITHUB_STORE, CREDENTIALS_STORE } from './constants/stores';
 // import { TodoFilter } from './constants/todos';
 
 import { Owner } from './api/gitHubResponse';
@@ -45,8 +41,6 @@ class OwnerClass implements Owner {
   received_events_url: string;
   type: string;
   site_admin: boolean;
-
-
 }
 
 const defaultGitHub = [
@@ -55,11 +49,14 @@ const defaultGitHub = [
 
 // prepare MobX stores
 // const todoStore = new TodoStore(defaultTodos);
+
 const routerStore = new RouterStore(browserHistory);
 const rootStores = {
   // [STORE_TODO]: todoStore,
+
   [STORE_ROUTER]: routerStore,
-  [GITHUB_STORE]: new GitHubStore(defaultGitHub)
+  [GITHUB_STORE]: new GitHubStore(defaultGitHub),
+  [CREDENTIALS_STORE]: new CredentialsStore("", "")
 };
 
 // render react DOM

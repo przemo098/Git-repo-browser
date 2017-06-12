@@ -18,4 +18,4 @@ export class GitHubModel {
   };
 }
 
-export default GitHubModel
+export default GitHubModel;

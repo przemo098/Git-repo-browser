@@ -1,7 +1,7 @@
 import * as React from 'react';
 import GitHubApi from '../../api/gitHubApi';
 import GitHubModel from '../../models/GitHubModel'
-import { GITHUB_STORE, STORE_ROUTER } from '../../constants/stores';
+import { GITHUB_STORE, CREDENTIALS_STORE } from '../../constants/stores';
 import { inject, observer } from 'mobx-react'
 import { GitHubStore } from '../../stores'
 import * as ResponseModel from '../../api/gitHubResponse';
@@ -12,9 +12,9 @@ import 'ag-grid-root/dist/styles/theme-fresh.css';
 
 
 
-@inject(GITHUB_STORE, STORE_ROUTER)
+@inject(GITHUB_STORE, CREDENTIALS_STORE)
 @observer
-export default class GitHubApp extends React.Component<any, any>{
+export default class GitHubApp extends React.Component<any, any> {
 
     constructor(props: any, context: any) {
         super(props, context);
@@ -39,12 +39,18 @@ export default class GitHubApp extends React.Component<any, any>{
                 </form>
 
                 <AgGridReact
-                    columnDefs={[{ "headerName": "createdAt", "field": "createdAt", "width": 100 }, { "headerName": "id", "field": "id", "width": 100 }, { "headerName": "owner", "field": "owner", "width": 100 }, { "headerName": "repoTitle", "field": "repoTitle", "width": 100 }, { "headerName": "stars", "field": "stars", "width": 100 }]}
+                    columnDefs={[{ "headerName": "createdAt", "field": "createdAt", "width": 100 }, { "headerName": "id", "field": "id", "width": 100 },
+                    { "headerName": "owner", "field": "owner", "width": 100 }, { "headerName": "repoTitle", "field": "repoTitle", "width": 100 },
+                    { "headerName": "stars", "field": "stars", "width": 100 }]}
                     rowData={this.state.repositories}
                     pagination={true}
                     paginationPageSize={this.state.rowPerPage}
                     enableSorting={true}
-
+                    getRowStyle={(params) => {
+                        if (params.data.owner === this.props[CREDENTIALS_STORE].login) {
+                            return { 'background-color': 'yellow' };
+                        }
+                    }}
                 />
 
                 <label>
@@ -56,10 +62,6 @@ export default class GitHubApp extends React.Component<any, any>{
                         <option value="20">20</option>
                     </select>
                 </label>
-
-                <div>
-                    <button onClick={this.redirectToGitHub}>Login with GitHub </button>
-                </div>
             </div>)
     }
 
@@ -89,22 +91,31 @@ export default class GitHubApp extends React.Component<any, any>{
         }
     }
 
-    getData() {
+    async getData() {
+        const gitHubStore = this.props[GITHUB_STORE] as GitHubStore;
+        gitHubStore.clean();
+        console.log(gitHubStore.repositories);
+
         try {
-            let localData = localStorage.getItem(this.state.searchString)
-            this.setState({repositories: JSON.parse(localData)});            
-        }
-        catch (excpetion) {
+            console.log("loadign local");
+
+            let localData = localStorage.getItem(this.state.searchString);
+            if (localData === null || localData === "null" || localData.length === 0 || localData === "[]") {
+                throw "No local data"
+            }
+            console.log(JSON.parse(localData));
+
+            this.setState({ repositories: JSON.parse(localData) });
+        } catch (excpetion) {
+            console.log("loadign form web");
             //load from web
-            const gitHubStore = this.props[GITHUB_STORE] as GitHubStore;
-            GitHubApi(this.state.searchString).then((json: ResponseModel.GitHubResponse) => json.items)
-                .then((items: ResponseModel.Item[]) =>
-                    items.map((item) => {
-                        let zmienna = new GitHubModel(item.id, item.name, item.owner.login, item.stargazers_count, item.created_at);
-                        gitHubStore.addRepo(zmienna);
-                    })).then(
-                () => this.setState({ repositories: this.props.github.repositories.peek() })
-                );
+            let response: ResponseModel.GitHubResponse = await GitHubApi(this.state.searchString);
+
+            response.items.map(item => {
+                let repo = new GitHubModel(item.id, item.name, item.owner.login, item.stargazers_count, item.created_at);
+                gitHubStore.addRepo(repo);
+            });
+            this.setState({ repositories: this.props.github.repositories.peek() });
         }
     }
 }

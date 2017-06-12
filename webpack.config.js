@@ -18,6 +18,12 @@ module.exports = {
   module: {
 
     loaders: [
+      {
+        test: /\.tsx?$/,
+        enforce: 'pre',
+        loader: 'tslint-loader',
+        options: { emitErrors: true }
+      },
       // .ts, .tsx
       {
         test: /\.tsx?$/,
